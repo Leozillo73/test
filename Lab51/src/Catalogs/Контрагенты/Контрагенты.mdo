@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="932616af-0a1e-459a-b4e9-617b8f2684e9">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="932616af-0a1e-459a-b4e9-617b8f2684e9">
   <producedTypes>
     <objectType typeId="a32bc0f1-094e-4a35-a608-ccc9aecc1943" valueTypeId="e234265c-6845-4d29-9317-b0c62289e3c7"/>
     <refType typeId="d37b5e59-f93f-4fbd-9ad1-3aa483e92790" valueTypeId="65c7a8e8-0d8e-4f75-96cc-dfb9f4b3f125"/>
@@ -31,6 +31,35 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2f4450f2-2f0b-4396-af7b-b8e02710a109">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f00f22c5-c8fd-45d3-a9df-6e3136fad4a8">
+    <producedTypes>
+      <objectType typeId="a29eff68-4173-4519-a987-65d0a6e01670" valueTypeId="6e786086-ffbc-4a2d-ae56-8bef80281a88"/>
+      <rowType typeId="6e94e5c0-afbc-47f0-8e5c-506643934771" valueTypeId="cd45b1a4-7f52-425c-a25e-84c38cc9ead3"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+  </tabularSections>
   <forms uuid="17a0f2aa-5c87-4632-8daa-c04b31886c43">
     <name>ФормаЭлемента</name>
     <synonym>
