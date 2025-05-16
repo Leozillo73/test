@@ -49,6 +49,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2e69fa85-97d0-47e8-9d09-7bdd0e2dd63b">
+    <name>Реквизит1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f00f22c5-c8fd-45d3-a9df-6e3136fad4a8">
     <producedTypes>
       <objectType typeId="a29eff68-4173-4519-a987-65d0a6e01670" valueTypeId="6e786086-ffbc-4a2d-ae56-8bef80281a88"/>
